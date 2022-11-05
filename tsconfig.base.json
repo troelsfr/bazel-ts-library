@@ -23,7 +23,6 @@
     "resolveJsonModule": true,
     "noUnusedLocals": true,
     "strict": true,
-    "target": "es5",
-    "rootDirs": []
+    "target": "es5"
   }
 }

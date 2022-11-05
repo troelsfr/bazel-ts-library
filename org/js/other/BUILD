@@ -11,6 +11,7 @@ ts_project(
    root_dir = "src",
    tsc = "@npm//typescript/bin:tsc",
    deps = [ 
+    "//org/js/core:lib",   
     "@npm//tslib",
    ],
    

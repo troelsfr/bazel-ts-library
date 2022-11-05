@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "importHelpers": true,
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "paths": {
+      "*": ["includes/*"],
+      "@org-js/*": ["org/js/*"]
+    },
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "target": "es5",
+    "rootDirs": []
+  }
+}

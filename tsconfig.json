@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "org/js/core" }, { "path": "org/js/other" }]
+}

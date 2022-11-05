@@ -16,13 +16,41 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "paths": {
-      "*": ["includes/*"],
-      "@org-js/*": ["org/js/*"]
-    },
     "resolveJsonModule": true,
     "noUnusedLocals": true,
     "strict": true,
-    "target": "es5"
+    "target": "es5",
+    "paths": {
+      "@org-js/*": ["./org/js/*", "org/js/*"]
+    },
+    "rootDirs": [
+      ".",
+      "./bazel-out/host/bin/org/js",
+      "./bazel-out/darwin-fastbuild/bin/org/js",
+      "./bazel-out/darwin_arm64-fastbuild/bin/org/js",
+      "./bazel-out/k8-fastbuild/bin/org/js",
+      "./bazel-out/x64_windows-fastbuild/bin/org/js",
+      "./bazel-out/darwin-dbg/bin/org/js",
+      "./bazel-out/k8-dbg/bin/org/js",
+      "./bazel-out/x64_windows-dbg/bin/org/js",
+
+      "./bazel-out/host/bin/org/js/core",
+      "./bazel-out/darwin-fastbuild/bin/org/js/core",
+      "./bazel-out/darwin_arm64-fastbuild/bin/org/js/core",
+      "./bazel-out/k8-fastbuild/bin/org/js/core",
+      "./bazel-out/x64_windows-fastbuild/bin/org/js/core",
+      "./bazel-out/darwin-dbg/bin/org/js/core",
+      "./bazel-out/k8-dbg/bin/org/js/core",
+      "./bazel-out/x64_windows-dbg/bin/org/js/core",
+
+      "./bazel-out/host/bin/",
+      "./bazel-out/darwin-fastbuild/bin/",
+      "./bazel-out/darwin_arm64-fastbuild/bin/",
+      "./bazel-out/k8-fastbuild/bin/",
+      "./bazel-out/x64_windows-fastbuild/bin/",
+      "./bazel-out/darwin-dbg/bin/",
+      "./bazel-out/k8-dbg/bin/",
+      "./bazel-out/x64_windows-dbg/bin/"
+    ]
   }
 }

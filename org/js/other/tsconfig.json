@@ -2,18 +2,7 @@
   "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist",
-    "rootDirs": [
-      ".",
-      "../../../bazel-out/host/bin/org/js",
-      "../../../bazel-out/darwin-fastbuild/bin/org/js",
-      "../../../bazel-out/darwin_arm64-fastbuild/bin/org/js",
-      "../../../bazel-out/k8-fastbuild/bin/org/js",
-      "../../../bazel-out/x64_windows-fastbuild/bin/org/js",
-      "../../../bazel-out/darwin-dbg/bin/org/js",
-      "../../../bazel-out/k8-dbg/bin/org/js",
-      "../../../bazel-out/x64_windows-dbg/bin/org/js"
-    ]
+    "outDir": "dist"
   },
   "include": ["src"]
 }
